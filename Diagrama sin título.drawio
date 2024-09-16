@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14" pages="11">
   <diagram name="ConsultarSaldo" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1674" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1174,6 +1174,62 @@
             <mxPoint x="425" y="320" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AI-T1sFLtekx5cYEF-GC" name="Diagrama de Clases">
+    <mxGraphModel dx="712" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NrLXzeVGmSYw8go2WFbp-1" value="Usuario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NrLXzeVGmSYw8go2WFbp-2" value="- nombre&lt;div&gt;- cuenta&lt;/div&gt;&lt;div&gt;- pin&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NrLXzeVGmSYw8go2WFbp-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NrLXzeVGmSYw8go2WFbp-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NrLXzeVGmSYw8go2WFbp-1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NrLXzeVGmSYw8go2WFbp-4" value="+ insertarTarjeta()&lt;div&gt;+ ingresarPin()&lt;/div&gt;&lt;div&gt;+ seleccionarOpcion()&lt;/div&gt;&lt;div&gt;+ confirmarAccion()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NrLXzeVGmSYw8go2WFbp-1">
+          <mxGeometry y="88" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="NrLXzeVGmSYw8go2WFbp-5" value="Pantalla" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NrLXzeVGmSYw8go2WFbp-6" value="- interfaz" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NrLXzeVGmSYw8go2WFbp-5">
+          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="NrLXzeVGmSYw8go2WFbp-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NrLXzeVGmSYw8go2WFbp-5">
+          <mxGeometry y="50" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NrLXzeVGmSYw8go2WFbp-8" value="+ mostrarMenu()&lt;div&gt;+ mostrarSaldo()&lt;/div&gt;&lt;div&gt;+ mostrarMovimientos()&lt;/div&gt;&lt;div&gt;+ mostrarMensaje()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NrLXzeVGmSYw8go2WFbp-5">
+          <mxGeometry y="58" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="MJGXIJwju0r9GRUjcbtn-1" value="CuentaService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MJGXIJwju0r9GRUjcbtn-2" value="- limiteDiario&lt;div&gt;- saldo&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MJGXIJwju0r9GRUjcbtn-1">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MJGXIJwju0r9GRUjcbtn-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MJGXIJwju0r9GRUjcbtn-1">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MJGXIJwju0r9GRUjcbtn-4" value="+ consultarSaldo()&lt;div&gt;+ consultarMovimientos()&lt;/div&gt;&lt;div&gt;+ realizarDeposito()&lt;/div&gt;&lt;div&gt;+ retirarEfectivo()&lt;/div&gt;&lt;div&gt;+ pagoServicio()&lt;/div&gt;&lt;div&gt;+ pagoTarjetaCredito()&lt;/div&gt;&lt;div&gt;+ bloquearTarjeta()&lt;/div&gt;&lt;div&gt;+ consultarLimites()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MJGXIJwju0r9GRUjcbtn-1">
+          <mxGeometry y="68" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="MJGXIJwju0r9GRUjcbtn-5" value="CuentaRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="MJGXIJwju0r9GRUjcbtn-6" value="&lt;div&gt;- datosCuenta&lt;/div&gt;- movimientos&lt;div&gt;- datosTarjeta&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MJGXIJwju0r9GRUjcbtn-5">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="MJGXIJwju0r9GRUjcbtn-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MJGXIJwju0r9GRUjcbtn-5">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MJGXIJwju0r9GRUjcbtn-8" value="+ guardarMovimiento()&lt;div&gt;+ consultarHistorial()&lt;/div&gt;&lt;div&gt;+ validarTarjeta()&lt;/div&gt;&lt;div&gt;+ validarPin()&lt;/div&gt;&lt;div&gt;+ registrarDeposito()&lt;/div&gt;&lt;div&gt;+ realizarPago()&lt;/div&gt;&lt;div&gt;+ avtualizarSaldo()&lt;/div&gt;&lt;div&gt;+ bloquearTarjeta()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MJGXIJwju0r9GRUjcbtn-5">
+          <mxGeometry y="88" width="160" height="132" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
